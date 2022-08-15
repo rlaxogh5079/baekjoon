@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int line;
+	cin >> line;
+
+	for (int i = 1; i <= line; i++) {
+		for (int j = line - i; j >= 1; j--) {
+			cout << " ";
+		}
+		for (int j = 1; j <= i; j++) {
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
