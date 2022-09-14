@@ -20,7 +20,7 @@ int main() {
 
 
 	bool flag = false;
-	for (int i = A.length() - 1 ; i >= 0; i--) {
+	for (int i = A.length() - 1; i >= 0; i--) {
 		A[i] -= '0';
 		B[i] -= '0';
 		A[i] = A[i] + B[i] + flag + '0';
